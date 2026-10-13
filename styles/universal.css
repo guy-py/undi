@@ -1,0 +1,17 @@
+.tajuk {
+    scale: 0.4 0.4;
+}
+
+body {
+    background-image: url(/imej/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+img.icon {
+    height: 30px;
+    width: auto;
+}

@@ -1,0 +1,50 @@
+button {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    width: 110px;
+    padding : 7px 8px 7px 32px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    margin-top: 8px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+
+    background-size: 15px auto;
+    size: 10px auto;
+}
+
+button.login {
+    background-image: url(../imej/arrow.png);
+}
+
+button.batal {
+    background-image: url(../imej/delete.png);
+}
+
+button.import {
+    background-image: url(../imej/import.png);
+}
+
+button.tambah {
+    background-image: url(../imej/add.png);
+}
+
+button.update {
+    background-image: url(../imej/refresh.png);
+}
+
+button.cetak {
+    background-image: url(../imej/printer.png);
+}
+
+button.papar {
+    background-image: url(../imej/monitor.png);
+}
+
+button.cari {
+    background-image: url(../imej/search.png);
+}

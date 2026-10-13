@@ -1,0 +1,125 @@
+h5 {
+    font-family: verdana;
+    font-size: 40px;
+    color: white;
+}
+
+p.arahan {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+    width: 400px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(225, 225, 225, 1);;
+    margin: 4px 25px 4px 0px;
+    display: block;
+    box-shadow: 7px 7px 6px 0px rgba(0, 0, 0, 0.56);
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    top: 140px;
+    width: 100%;
+    height: 45px;
+    padding: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.gambar {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    margin: 20px 0px 0px 0px;
+}
+
+figcaption {
+    font-family: verdana;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+
+    font-weight: bold;
+    color: black;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(225, 225, 225, 1);
+    box-shadow: 7px 7px 6px 0px rgba(0, 0, 0, 0.56);
+}
+
+img.home {
+    border: 2px solid black;
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul li {
+    display: block;
+    float: left;
+}
+
+li ul {
+    display: none;
+}
+
+ul li a {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+
+    width: 115px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.63);;
+    margin: 4px 25px 4px 0px;
+    display: block;
+    box-shadow: 7px 7px 6px 0px rgba(0, 0, 0, 0.56);
+}
+
+ul li a:hover {
+    color: #ffffff;
+    background-color: #690000;
+    transition: scale 0.2s;
+    scale: 125%;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li {
+    float: none;
+}
